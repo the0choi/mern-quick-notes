@@ -11,7 +11,7 @@ export default function AuthPage({ setUser }) {
 
   return (
     <main>
-      <h1>AuthPage</h1>
+      <h1>MERN Quick Notes</h1>
       <button onClick={handleToggle}>{showLogin ? 'Sign Up' : 'Login' }</button>
       { showLogin ?
         <LoginForm setUser={setUser} />
